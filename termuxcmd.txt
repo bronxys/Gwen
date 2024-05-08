@@ -1,0 +1,40 @@
+// • Opa vdh, precisa de ajuda?
+// • Aqui está o guia de instalação!
+
+1` comando:
+
+termux-change-repo
+
+2° comando:
+
+apt-get upgrade -y
+
+3° comando:
+
+apt-get update -y
+
+4° comando:
+
+pkg upgrade -y && pkg update -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && pkg install wget -y && pkg install tesseract -y && pkg install git -y
+
+5° comando:
+
+termux-setup-storage
+
+6° comando:
+
+cd /sdcard/Gwen-Bot
+
+7° comando:
+
+sh start.sh
+
+// • Créditos:
+
+/* @Vitinzx
+/* @Drakzin
+/* @Lk
+/* @Jotta
+/* @Gabs
+
+// • Espero ter te ajudado vdh, bjs...

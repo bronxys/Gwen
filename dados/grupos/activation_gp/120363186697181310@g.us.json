@@ -1,0 +1,77 @@
+[
+  {
+    "name": "• ⭐ - Chat da Gwen - ⭐ •",
+    "groupId": "120363186697181310@g.us",
+    "x9": false,
+    "antiimg": false,
+    "antivideo": false,
+    "antiaudio": false,
+    "antisticker": false,
+    "antidoc": false,
+    "antictt": false,
+    "antiloc": false,
+    "antilinkgp": false,
+    "antilinkhard": false,
+    "antifake": false,
+    "Odelete": true,
+    "antispam": false,
+    "antinotas": false,
+    "anticatalogo": false,
+    "visuUnica": false,
+    "registrarFIGUS": false,
+    "soadm": false,
+    "listanegra": [],
+    "advertir": [],
+    "prefixos": [
+      "/"
+    ],
+    "advertir2": [],
+    "legenda_estrangeiro": "0",
+    "legenda_documento": "0",
+    "legenda_video": "0",
+    "legenda_imagem": "0",
+    "multiprefix": false,
+    "forca_ofc": [
+      {
+        "acertos": 0,
+        "erros": 0,
+        "palavra": [],
+        "escreveu": [],
+        "palavra_ofc": 0,
+        "dica": 0,
+        "tema": 0
+      }
+    ],
+    "ausentes": [],
+    "antipalavrao": {
+      "active": false,
+      "palavras": []
+    },
+    "limitec": {
+      "active": false,
+      "quantidade": null
+    },
+    "wellcome": [
+      {
+        "bemvindo1": false,
+        "legendabv": "💫⭐ Opa vdh! seja bem-vindo(a) ao grupo: #nomedogp#\n\n⚠ Siga as regras para evitar o banimento!\n\n-> Gwen Bot => Prefixo: [ #prefixo# ]\n\n-> Membro: #numerodele#\n-> Entrada: #data# ás #hora#\n\n🚀 Aproveite o Grupo 🚀",
+        "legendasaiu": "🥲🥺 Triste a vida, mais um membro se foi, provavelmente deve ter ido aparar os chifres porém não vai fazer falta!\n\n-> Membro: #numerodele#\n\n-> Saída: #data# ás #hora#"
+      },
+      {
+        "bemvindo2": false,
+        "legendabv": "💫⭐ Opa vdh! seja bem-vindo(a) ao grupo: #nomedogp#\n\n⚠ Siga as regras para evitar o banimento!\n\n-> Gwen Bot => Prefixo: [ #prefixo# ]\n\n-> Membro: #numerodele#\n-> Entrada: #data# ás #hora#\n\n🚀 Aproveite o Grupo 🚀",
+        "legendasaiu": "🥲🥺 Triste a vida, mais um membro se foi, provavelmente deve ter ido aparar os chifres porém não vai fazer falta!\n\n-> Membro: #numerodele#\n\n-> Saída: #data# ás #hora#"
+      }
+    ],
+    "simi1": false,
+    "simi2": false,
+    "autosticker": false,
+    "autoresposta": true,
+    "jogos": false,
+    "level": true,
+    "bangp": false,
+    "adulto": false,
+    "aluguel": true,
+    "rpg": true
+  }
+]
