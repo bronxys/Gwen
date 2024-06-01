@@ -54,7 +54,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Calcular (4 + 4)
 ┃│• ${emojibot} • ➭ ${prefix}Fazernick (Nick)
 ┃│• ${emojibot} • ➭ ${prefix}Traduzir
-┃│• ${emojibot} • ➭ ${prefix}Listadegrupos
+┃│• ${emojibot} • ➭ ${prefix}Grouplist
 ┃│• ${emojibot} • ➭ ${prefix}Gerarlinkimg (Marcar Img)
 ┃│• ${emojibot} • ➭ ${prefix}Gerarlinkvid (Marcar Vid)
 ┃│• ${emojibot} • ➭ ${prefix}Ping
@@ -116,6 +116,8 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Reviver 
 ┃│• ${emojibot} • ➭ ${prefix}Mute
 ┃│• ${emojibot} • ➭ ${prefix}Desmute
+┃│• ${emojibot} • ➭ ${prefix}Adv
+┃│• ${emojibot} • ➭ ${prefix}Rmadv
 ┃│• ${emojibot} • ➭ ${prefix}Status
 ┃│• ${emojibot} • ➭ ${prefix}Grupoinfo
 ┃│• ${emojibot} • ➭ ${prefix}Rankativos
@@ -124,10 +126,15 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Atividades
 ┃│• ${emojibot} • ➭ ${prefix}Limpar
 ┃│• ${emojibot} • ➭ ${prefix}Linkgp
+┃│• ${emojibot} • ➭ ${prefix}Nomegp
+┃│• ${emojibot} • ➭ ${prefix}Fotogp
+┃│• ${emojibot} • ➭ ${prefix}Descgp
 ┃│• ${emojibot} • ➭ ${prefix}Listanegra (Número)
 ┃│• ${emojibot} • ➭ ${prefix}Tirardalista (Número)
 ┃│• ${emojibot} • ➭ ${prefix}Requestgp 
+┃│• ${emojibot} • ➭ ${prefix}Grupo (f/a)
 ┃│• ${emojibot} • ➭ ${prefix}Listaadmins
+┃│• ${emojibot} • ➭ ${prefix}Admins
 ┃│• ${emojibot} • ➭ ${prefix}Promover
 ┃│• ${emojibot} • ➭ ${prefix}Rebaixar
 ┃│• ${emojibot} • ➭ ${prefix}Tabelagp 
@@ -144,6 +151,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Antiaudio (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antisticker (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antiloc (1/0)
+┃│• ${emojibot} • ➭ ${prefix}Advlink (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antilinkgp (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antilinkhard (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antifake (1/0)
@@ -160,7 +168,11 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Odelete (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}So_adm (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Leveling (1/0)
+┃│• ${emojibot} • ➭ ${prefix}Autorepo (1/0)
+┃│• ${emojibot} • ➭ ${prefix}Autorepo2 (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Multiprefixo (1/0)
+┃│• ${emojibot} • ➭ ${prefix}Simih1 (1/0)
+┃│• ${emojibot} • ➭ ${prefix}Simih2 (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Bemvindo (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Bemvindo2 (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Legendabv (Texto)
@@ -172,8 +184,6 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Legenda_imagem (Texto)
 ┃│• ${emojibot} • ➭ ${prefix}Legenda_vídeo (Texto)
 ┃│• ${emojibot} • ➭ ${prefix}Legenda_estrangeiro (Texto)
-┃│• ${emojibot} • ➭ ${prefix}Simih1 (1/0)
-┃│• ${emojibot} • ➭ ${prefix}Simih2 (1/0)
 ┃└──────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛
 `;
@@ -194,14 +204,20 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃┌──────────────────
 ┃│• ${emojibot} • ➭ ${prefix}Bangp
 ┃│• ${emojibot} • ➭ ${prefix}Unbangp
+┃│• ${emojibot} • ➭ ${prefix}Savegp
+┃│• ${emojibot} • ➭ ${prefix}Unsavegp
 ┃│• ${emojibot} • ➭ ${prefix}Sairgp
 ┃│• ${emojibot} • ➭ ${prefix}Listagp
 ┃│• ${emojibot} • ➭ ${prefix}Entrar (Link)
-┃│• ${emojibot} • ➭ ${prefix}Modoprivado (0/1)
+┃│• ${emojibot} • ➭ ${prefix}Modoprivado (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Ausente (Texto)
 ┃│• ${emojibot} • ➭ ${prefix}Ativo
 ┃│• ${emojibot} • ➭ ${prefix}Blockcmd (Comando)
 ┃│• ${emojibot} • ➭ ${prefix}Unblockcmd (Comando)
+┃│• ${emojibot} • ➭ ${prefix}Listacomandos
+┃│• ${emojibot} • ➭ ${prefix}Blockcmdg (Comando)
+┃│• ${emojibot} • ➭ ${prefix}Unblockcmdg (Comando)
+┃│• ${emojibot} • ➭ ${prefix}Listacomandosg
 ┃│• ${emojibot} • ➭ ${prefix}Block (@)
 ┃│• ${emojibot} • ➭ ${prefix}Unblock (@)
 ┃│• ${emojibot} • ➭ ${prefix}Servip
@@ -229,7 +245,6 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Gerarkeygp
 ┃│• ${emojibot} • ➭ ${prefix}Gerarkeycort
 ┃│• ${emojibot} • ➭ ${prefix}Delcodekey
-┃│• ${emojibot} • ➭ ${prefix}Cortesia
 ┃│• ${emojibot} • ➭ ${prefix}Zerarrg
 ┃│• ${emojibot} • ➭ ${prefix}Tirarrg
 ┃│• ${emojibot} • ➭ ${prefix}Soltar
@@ -245,7 +260,10 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Numero-dono
 ┃│• ${emojibot} • ➭ ${prefix}Addpalavra_forca (Título|Tema|Dica)
 ┃│• ${emojibot} • ➭ ${prefix}Delpalavra_forca (Palavra)
+┃│• ${emojibot} • ➭ ${prefix}Addvdd
+┃│• ${emojibot} • ➭ ${prefix}Adddsf
 ┃│• ${emojibot} • ➭ ${prefix}Modoaluguel (1/0)
+┃│• ${emojibot} • ➭ ${prefix}Autoregistro (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antiligar (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antipv
 ┃│• ${emojibot} • ➭ ${prefix}Antipv2
@@ -255,12 +273,6 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Dono4 (@)
 ┃│• ${emojibot} • ➭ ${prefix}Dono5 (@)
 ┃│• ${emojibot} • ➭ ${prefix}Dono6 (@)
-┃│• ${emojibot} • ➭ ${prefix}Addgplist1 (Link)
-┃│• ${emojibot} • ➭ ${prefix}Addgplist2 (Link)
-┃│• ${emojibot} • ➭ ${prefix}Addgplist3 (Link)
-┃│• ${emojibot} • ➭ ${prefix}Addgplist4 (Link)
-┃│• ${emojibot} • ➭ ${prefix}Addgplist5 (Link)
-┃│• ${emojibot} • ➭ ${prefix}Addgplist6 (Link)
 ┃└──────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛
 `;
@@ -591,22 +603,31 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃   ☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ┃┌──────────────────
 ┃│• ${emojibot} • ➭ ${prefix}Gay (@)
+┃│• ${emojibot} • ➭ ${prefix}Lesbica (@)
 ┃│• ${emojibot} • ➭ ${prefix}Hetero (@)
 ┃│• ${emojibot} • ➭ ${prefix}Feio (@)
+┃│• ${emojibot} • ➭ ${prefix}Feia (@)
 ┃│• ${emojibot} • ➭ ${prefix}Corno (@)
+┃│• ${emojibot} • ➭ ${prefix}Corna (@)
 ┃│• ${emojibot} • ➭ ${prefix}Vesgo (@)
-┃│• ${emojibot} • ➭ ${prefix}Bebado (@)
+┃│• ${emojibot} • ➭ ${prefix}Vesga (@)
+┃│• ${emojibot} • ➭ ${prefix}Cachaceiro (@)
+┃│• ${emojibot} • ➭ ${prefix}Cachaceira (@)
 ┃│• ${emojibot} • ➭ ${prefix}Gostoso (@)
 ┃│• ${emojibot} • ➭ ${prefix}Gostosa (@)
+┃│• ${emojibot} • ➭ ${prefix}Gado (@)
+┃│• ${emojibot} • ➭ ${prefix}Gada (@)
+┃│• ${emojibot} • ➭ ${prefix}Nazista (@)
+┃│• ${emojibot} • ➭ ${prefix}Otaku (@)
 ┃│• ${emojibot} • ➭ ${prefix}Abracar (@)
 ┃│• ${emojibot} • ➭ ${prefix}Beijo (@)
 ┃│• ${emojibot} • ➭ ${prefix}Assasinar (@)
 ┃│• ${emojibot} • ➭ ${prefix}Tapa (@)
 ┃│• ${emojibot} • ➭ ${prefix}Chute (@)
 ┃│• ${emojibot} • ➭ ${prefix}Dogolpe (@)
-┃│• ${emojibot} • ➭ ${prefix}Nazista (@)
 ┃│• ${emojibot} • ➭ ${prefix}Infiel (@)
 ┃│• ${emojibot} • ➭ ${prefix}Amor (@)
+┃│• ${emojibot} • ➭ ${prefix}Shipo (@/@)
 ┃└──────────────────
 ┣━━━━━━━━━━━━━━━━━━━┫
 ┃┌──────────────────
@@ -671,6 +692,7 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┃│• ${emojibot} • ➭ ${prefix}Wasted (Marcar Img)
 ┃│• ${emojibot} • ➭ ${prefix}Animeia (Marcar Img)
 ┃│• ${emojibot} • ➭ ${prefix}Zombieia (Marcar Img)
+┃│• ${emojibot} • ➭ ${prefix}tohd (Marcar Img)
 ┃└──────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛
 `;
@@ -694,6 +716,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Sticker (Marcar img)
 ┃│• ${emojibot} • ➭ ${prefix}Fsticker (Marcar img)
 ┃│• ${emojibot} • ➭ ${prefix}Qc (Texto)
+┃│• ${emojibot} • ➭ ${prefix}Qc2 (Texto)
 ┃│• ${emojibot} • ➭ ${prefix}Fakechat (Nmr|Txt|Txt)
 ┃│• ${emojibot} • ➭ ${prefix}Roubar (Texto/Texto)
 ┃│• ${emojibot} • ➭ ${prefix}Toimg (MarcarFigu)
@@ -710,7 +733,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Figudesenho (Quantidade)
 ┃│• ${emojibot} • ➭ ${prefix}Figuraiva (Quantidade)
 ┃│• ${emojibot} • ➭ ${prefix}Figuroblox (Quantidade)
-┃│• ${emojibot} • ➭ ${prefix}Figualeatoria
+┃│• ${emojibot} • ➭ ${prefix}Figaleatoria
 ┃└──────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛`
 }
@@ -768,10 +791,8 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃┌──────────────────
 ┃│• ${emojibot} • ➭ ${prefix}Xvid1
 ┃│• ${emojibot} • ➭ ${prefix}Xvid2
-┃│• ${emojibot} • ➭ ${prefix}Xvideos
 ┃│• ${emojibot} • ➭ ${prefix}Hentai1
 ┃│• ${emojibot} • ➭ ${prefix}Hentai2
-┃│• ${emojibot} • ➭ ${prefix}Hentaiimg
 ┃│• ${emojibot} • ➭ ${prefix}Pau
 ┃│• ${emojibot} • ➭ ${prefix}Xrc
 ┃│• ${emojibot} • ➭ ${prefix}Pauzudo (@)
@@ -858,7 +879,6 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃┌──────────────────
 ┃│• ${emojibot} • ➭ ${prefix}Jogodavelha
 ┃│• ${emojibot} • ➭ ${prefix}Anagrama
-┃│• ${emojibot} • ➭ ${prefix}Gartic
 ┃│• ${emojibot} • ➭ ${prefix}Quizanimal
 ┃│• ${emojibot} • ➭ ${prefix}Enigma
 ┃│• ${emojibot} • ➭ ${prefix}Jogodaforca
@@ -940,6 +960,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Only10
 ┃│• ${emojibot} • ➭ ${prefix}Only11
 ┃│• ${emojibot} • ➭ ${prefix}Only12
+┃│• ${emojibot} • ➭ ${prefix}Pack
 ┃└──────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛
 
