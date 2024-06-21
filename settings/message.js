@@ -1,1 +1,1 @@
-Error: Unexpected token (30:0)
+Error: Unexpected token (31:0)
