@@ -4,9 +4,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃┌──────────────────
 ┃│ *Usuário:* @${sender.split("@")[0]}⁩
 ┃│ *Vip:* ${isVip ? 'Sim' : 'Não'}
-┃│ *Criador:* Vitinzx
 ┃│ *Bot:* ${NomeDoBot}
-┃│ *Versão:* 1.0.0
 ┃│ *Dono:* ${NickDono}
 ┃└──────────────────
 ┣━━━━━━━━━━━━━━━━━━━┫
@@ -19,6 +17,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Menuvip
 ┃│• ${emojibot} • ➭ ${prefix}Menurpg
 ┃│• ${emojibot} • ➭ ${prefix}Menuefeitos
+┃│• ${emojibot} • ➭ ${prefix}Menualteradores
 ┃│• ${emojibot} • ➭ ${prefix}Menulogos
 ┃│• ${emojibot} • ➭ ${prefix}Menubrincadeiras
 ┃│• ${emojibot} • ➭ ${prefix}Menudw
@@ -258,10 +257,11 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Nome-bot
 ┃│• ${emojibot} • ➭ ${prefix}Nick-dono
 ┃│• ${emojibot} • ➭ ${prefix}Numero-dono
+┃│• ${emojibot} • ➭ ${prefix}Versao-bot
+┃│• ${emojibot} • ➭ ${prefix}Baileys-bot
+┃│• ${emojibot} • ➭ ${prefix}Totalcmd
 ┃│• ${emojibot} • ➭ ${prefix}Addpalavra_forca (Título|Tema|Dica)
 ┃│• ${emojibot} • ➭ ${prefix}Delpalavra_forca (Palavra)
-┃│• ${emojibot} • ➭ ${prefix}Addvdd
-┃│• ${emojibot} • ➭ ${prefix}Adddsf
 ┃│• ${emojibot} • ➭ ${prefix}Modoaluguel (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Autoregistro (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antiligar (1/0)
