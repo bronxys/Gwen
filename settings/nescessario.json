@@ -3,13 +3,15 @@
 	"forwarding": false,
 	"banChats": false,
 	"menu_audio": true,
+	"botoes": false,
 	"verificado": true,
-	"consoleoff": true,
 	"antipv": true,
 	"anticall": true,
+	"modoaluguelg": true,
+	"limitarcmd": true,
 	"visualizarmsg": true,
-	"listanegraG": [],
 	"blockcmdG": [],
+	"listanegraG": [],
 	"cmd_vip": [],
 	"dono1": ".",
 	"dono2": ".",
@@ -17,6 +19,5 @@
 	"dono4": ".",
 	"dono5": ".",
 	"dono6": ".",
-	"botoff": false,
-	"Odelete": true
+	"botoff": false
 }
