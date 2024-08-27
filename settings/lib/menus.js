@@ -25,6 +25,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Menudw
 ┃│• ${emojibot} • ➭ ${prefix}Menufigu
 ┃│• ${emojibot} • ➭ ${prefix}Menu+18
+┃│• ${emojibot} • ➭ ${prefix}Menuconsultas
 ┃└──────────────────
 ┣━━━━━━━━━━━━━━━━━━━━┫
 ┃     ☆☆☆☆☆☆☆☆☆☆☆☆☆☆
@@ -34,15 +35,15 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Alugarbot
 ┃│• ${emojibot} • ➭ ${prefix}Calendario
 ┃│• ${emojibot} • ➭ ${prefix}Mylistkey
-┃│• ${emojibot} • ➭ ${prefix}Suporte
 ┃│• ${emojibot} • ➭ ${prefix}Idiomas
 ┃│• ${emojibot} • ➭ ${prefix}Gtts
-┃│• ${emojibot} • ➭ ${prefix}Relatar
+┃│• ${emojibot} • ➭ ${prefix}Suporte
 ┃│• ${emojibot} • ➭ ${prefix}Avaliar
 ┃│• ${emojibot} • ➭ ${prefix}Sugerir
 ┃│• ${emojibot} • ➭ ${prefix}Infobot
 ┃│• ${emojibot} • ➭ ${prefix}Infodono
 ┃│• ${emojibot} • ➭ ${prefix}Infocmd (Comando)
+┃│• ${emojibot} • ➭ ${prefix}Regras
 ┃│• ${emojibot} • ➭ ${prefix}Metadinha
 ┃│• ${emojibot} • ➭ ${prefix}Wame
 ┃│• ${emojibot} • ➭ ${prefix}Emoji (😏/ZapZap)
@@ -52,6 +53,8 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Cantadas
 ┃│• ${emojibot} • ➭ ${prefix}Gwen (Fale algo)
 ┃│• ${emojibot} • ➭ ${prefix}Perfil
+┃│• ${emojibot} • ➭ ${prefix}Resgatargc
+┃│• ${emojibot} • ➭ ${prefix}Listagc
 ┃│• ${emojibot} • ➭ ${prefix}Calcular (4 + 4)
 ┃│• ${emojibot} • ➭ ${prefix}Fazernick (Nick)
 ┃│• ${emojibot} • ➭ ${prefix}Traduzir
@@ -121,9 +124,10 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Adv
 ┃│• ${emojibot} • ➭ ${prefix}Rmadv
 ┃│• ${emojibot} • ➭ ${prefix}Status
-┃│• ${emojibot} • ➭ ${prefix}Grupoinfo
+┃│• ${emojibot} • ➭ ${prefix}Infogp
 ┃│• ${emojibot} • ➭ ${prefix}Rankativos
 ┃│• ${emojibot} • ➭ ${prefix}Rankinativos
+┃│• ${emojibot} • ➭ ${prefix}Banghost
 ┃│• ${emojibot} • ➭ ${prefix}Atividades
 ┃│• ${emojibot} • ➭ ${prefix}Limpar
 ┃│• ${emojibot} • ➭ ${prefix}Linkgp
@@ -142,8 +146,6 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Rebaixar
 ┃│• ${emojibot} • ➭ ${prefix}Tabelagp 
 ┃│• ${emojibot} • ➭ ${prefix}Criartabela (Texto)
-┃│• ${emojibot} • ➭ ${prefix}Resgatargc
-┃│• ${emojibot} • ➭ ${prefix}Listagc
 ┃│• ${emojibot} • ➭ ${prefix}Sorteio
 ┃│• ${emojibot} • ➭ ${prefix}Duelo
 ┃│• ${emojibot} • ➭ ${prefix}Status_duelo
@@ -168,11 +170,11 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Antipalavrao (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Limitecaracteres (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Antivisuunica (1/0)
-┃│• ${emojibot} • ➭ ${prefix}Odelete (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Modo+18 (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Modobrincadeira (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Modogamer (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Modorpg (1/0)
+┃│• ${emojibot} • ➭ ${prefix}Odelete (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}Autofigu (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}X9adm (1/0)
 ┃│• ${emojibot} • ➭ ${prefix}So_adm (1/0)
@@ -571,6 +573,8 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Gerarcpf
 ┃│• ${emojibot} • ➭ ${prefix}Celular
 ┃│• ${emojibot} • ➭ ${prefix}Lerfoto
+┃│• ${emojibot} • ➭ ${prefix}Ip 
+┃│• ${emojibot} • ➭ ${prefix}Cep 
 ┃│• ${emojibot} • ➭ ${prefix}Stalkear
 ┃└──────────────────
 ┣━━━━━━━━━━━━━━━━━━━━┫
@@ -623,7 +627,6 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Mina
 ┃│• ${emojibot} • ➭ ${prefix}Vdd_dsf
 ┃│• ${emojibot} • ➭ ${prefix}Ppp
-┃│• ${emojibot} • ➭ ${prefix}Akinator
 ┃└──────────────────
 ┣━━━━━━━━━━━━━━━━━━━┫
 ┃┌──────────────────
@@ -631,7 +634,6 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Resetppp
 ┃│• ${emojibot} • ➭ ${prefix}Reseteununca
 ┃│• ${emojibot} • ➭ ${prefix}Reset_vdd_dsf
-┃│• ${emojibot} • ➭ ${prefix}Resetaki
 ┃│• ${emojibot} • ➭ ${prefix}Resetarvelha
 ┃│• ${emojibot} • ➭ ${prefix}Minareset
 ┃│• ${emojibot} • ➭ ${prefix}Resetforca
@@ -742,7 +744,6 @@ return `​​​​​​​​​​​​​​​​​​​​​​​​
 ┃│• ${emojibot} • ➭ ${prefix}Wasted (Marcar Img)
 ┃│• ${emojibot} • ➭ ${prefix}Animeia (Marcar Img)
 ┃│• ${emojibot} • ➭ ${prefix}Zombieia (Marcar Img)
-┃│• ${emojibot} • ➭ ${prefix}tohd (Marcar Img)
 ┃└──────────────────
 ┗━━━━━━━━━━━━━━━━━━━━┛
 `;
@@ -868,7 +869,7 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Punheteiro (@)
 ┃│• ${emojibot} • ➭ ${prefix}Siririqueira (@)
 ┃│• ${emojibot} • ➭ ${prefix}Puta (@)
-┃│• ${emojibot} • ➭ ${prefix}Websexo (@)
+┃│• ${emojibot} • ➭ ${prefix}Sx (@)
 ┃│• ${emojibot} • ➭ ${prefix}Gf (@)
 ┃│• ${emojibot} • ➭ ${prefix}Rankpunheteiro (5 punheteiros)
 ┃│• ${emojibot} • ➭ ${prefix}Rankputa (5 putas)
@@ -953,8 +954,10 @@ return `┏━━━━━━━━━━━━━━━━━━━┓
 ┃│• ${emojibot} • ➭ ${prefix}Terminar
 ┃│• ${emojibot} • ➭ ${prefix}Casar
 ┃│• ${emojibot} • ➭ ${prefix}Cancelarcasorio
-┃│• ${emojibot} • ➭ ${prefix}Noivos
+┃│• ${emojibot} • ➭ ${prefix}Esposo
+┃│• ${emojibot} • ➭ ${prefix}Esposa
 ┃│• ${emojibot} • ➭ ${prefix}Divorciar
+┃│• ${emojibot} • ➭ ${prefix}Divorcio
 ┃└──────────────────
 ┣━━━━━━━━━━━━━━━━━━━┫
 ┃┌──────────────────
