@@ -1,0 +1,39 @@
+{
+  "dono": {
+    "nome": "Vitinho",
+    "numero": "5511968053559"
+  },
+  "bot": {
+    "prefixo": "/",
+    "nome": "𝑮𝒘𝒆𝒏 𝑩𝒐𝒕 𝑶𝒇𝒊𝒄𝒊𝒂𝒍",
+    "emoji": "💖"
+  },
+  "midia": {
+    "instagram": "",
+    "tiktok": ""
+  },
+  "api": {
+    "bk9": [
+      {
+        "domain": "https://api.bk9.dev"
+      }
+    ],
+    "sabs": [
+      {
+        "domain": "https://api.sabrinabot.xyz",
+        "key": ""
+      }
+    ],
+    "tmdb": [
+      {
+        "domain": "https://api.themoviedb.org",
+        "key": "ddfcb99fae93e4723232e4de755d2423"
+      }
+    ],
+    "assemblyai": [
+      {
+        "key": "41201d7fa5654110b991a2c4fb010729"
+      }
+    ]
+  }
+}

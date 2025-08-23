@@ -1,0 +1,30 @@
+{
+  "wait": [
+    "Processando dados... 🎲",
+    "Enviando amor rsrs... 🤭",
+    "Conjurando magia... 🪄",
+    "Lançando feitiço... 🔮",
+    "Consultando os anoditas... 🧙🏻‍♀️",
+    "Concluindo ritual... 🫥"
+  ],
+  "priv": "Ops... não estou realizando tarefas, pois estou sendo atualizada, aguarde mb... 😊",
+  "res": {
+    "grupo": "Ops... comando exclusivo para grupos! 🚫",
+    "pv": "Ops... comando exclusivo pro pv! 🚫",
+    "vip": "Ops... comando só para vip's! 💎",
+    "dono": "Ops... só para meu dono lindão! ✨",
+    "donos": "Ops... comando especial para donos! 🫅🏻",
+    "adm": "Ops... comando só para adms! 👑",
+    "admin": "Ops... não sou adm ainda! 😔"
+  },
+  "alert": {
+    "erro": "Ops... ocorreu um erro! 😿",
+    "ban": "Ops... você está de castigo! 🤬",
+    "laws": "Ops... não leu as regras? 🙄"
+  },
+  "missed": {
+    "welcome": "Ops... acho que alguém esqueceu de ativar o bem vindo, mas tipo, só acho! 🫂🌀",
+    "level": "Ops... acho que alguém esqueceu de ativar o leveling mas tipo, só acho! ✨🥳",
+    "fun": "Ops... acho que alguém esqueceu de ativar o modo brincadeira mas tipo, só acho! ✊🏻🍭"
+  }
+}

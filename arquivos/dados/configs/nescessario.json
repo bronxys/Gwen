@@ -1,0 +1,22 @@
+{
+  "banChats": false,
+  "verificado": false,
+  "autoview": true,
+  "active": false,
+  "owners": [],
+  "banned": [],
+  "blockcmdG": [],
+  "listanegraG": [],
+  "antipv": {
+    "active": true,
+    "msg": "🚫 - Fala mb, o antipv tá on, então não posso responder aqui, vou te bloquear, mas se precisar de algo, chama o @${user}..."
+  },
+  "antipv2": {
+    "active": false,
+    "msg": "🤖 - Ops, sou só uma bot, não sei bater papo, fui programada apenas pra realizar tarefas..."
+  },
+  "antipv3": {
+    "active": false,
+    "msg": null
+  }
+}
