@@ -61,6 +61,7 @@ var teks = `
 ┃ 🌟 ⋆➹ ${prefixo}infogc
 ┃ 🎚️ ⋆➹ ${prefixo}level
 ┃ 🧭 ⋆➹ ${prefixo}ping
+┃ ⚠️ ⋆➹ ${prefixo}regras
 ┃ 🏅 ⋆➹ ${prefixo}ranklevel
 ☁️⋆｡˚☽˚｡⋆『 ${emojibot} 』⋆｡˚☽˚｡⋆☁️
 ┃ 📞 ⋆➹ ${prefixo}suporte
@@ -128,6 +129,9 @@ var teks = `
 ┃ 🕵️ ⋆➹ ${prefixo}x9
 ☁️⋆｡˚☽˚｡⋆『 ${emojibot} 』⋆｡˚☽˚｡⋆☁️
 ┃ 🆗 ⋆➹ ${prefixo}setallowed
+☁️⋆｡˚☽˚｡⋆『 ${emojibot} 』⋆｡˚☽˚｡⋆☁️
+┃ ➕ ⋆➹ ${prefixo}addregras
+┃ ➖ ⋆➹ ${prefixo}rmregras
 ☁️⋆｡˚☽˚｡⋆『 ${emojibot} 』⋆｡˚☽˚｡⋆☁️
 ┃ ➕ ⋆➹ ${prefixo}addprefix
 ┃ ➖ ⋆➹ ${prefixo}delprefix
