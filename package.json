@@ -3,7 +3,7 @@
   "description": "tudo feito com carinho só pra você, sempre buscando melhorar e te mimar muito! se precisar de ajuda ou quiser dar ideias novas, fala com meu criador.",
   "main": "index.js",
   "scripts": {
-    "start": "sh start.sh",
+    "start": "sh run.sh",
     "test": "node start.js"
   },
   "author": "Vitinho",
